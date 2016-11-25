@@ -1,0 +1,22 @@
+{
+  "name": "flow-dist",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "flow check"
+  },
+  "dependencies": {
+    "cp-file": "^4.1.1",
+    "cpy": "^5.0.0",
+    "flow-remove-types": "^1.0.5",
+    "globby": "^6.1.0",
+    "meow": "^3.7.0",
+    "pinkie-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.36.0"
+  }
+}
